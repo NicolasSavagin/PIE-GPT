@@ -6,10 +6,12 @@ inputQuestion.addEventListener("keypress", (e) => {
 }); // Função verificar valor e tecla selecinada(Enter) e por fim chamar função
 
 const OPENAI_API_KEY = "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";
+
 //Funçao limpar tela de resultados
 function eraseText() {
   document.getElementById("result").value = "";
 }
+
 // Função Enviar Perguntar
 function SendQuestion() {
   var sQuestion = inputQuestion.value;
