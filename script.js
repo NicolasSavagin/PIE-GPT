@@ -5,7 +5,7 @@ inputQuestion.addEventListener("keypress", (e) => {
   if (inputQuestion.value && e.key === "Enter") SendQuestion();
 }); // Função verificar valor e tecla selecinada(Enter) e por fim chamar função
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 //Funçao limpar tela de resultados
 function eraseText() {
