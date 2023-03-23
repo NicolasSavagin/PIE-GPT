@@ -62,3 +62,15 @@ textarea:focus {
   right: 150px;
   width: 40px;
 }
+.mic-button {
+  background-color: rgba(0, 0, 0, 0);
+  align-items: center;
+  bottom: 55px;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  position: absolute;
+  right: 200px;
+  width: 40px;
+}
