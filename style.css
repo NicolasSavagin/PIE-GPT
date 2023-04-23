@@ -74,3 +74,55 @@ textarea:focus {
   right: 200px;
   width: 40px;
 }
+.lockscreen {
+  margin-top: 20%;
+  text-align: center;
+}
+h2{
+  color: #FFFFFF;
+  text-align: center;
+}
+form {
+  background-color: #1d1e23;
+  border-radius: 10px;
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+  width: 600px;
+  position: absolute;
+  color: #FFFFFF;
+  right: 350px;
+  bottom: 200px;
+}
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"] {
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #8257e5;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #8257e5;
+}
