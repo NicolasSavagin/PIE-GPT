@@ -33,6 +33,7 @@ textarea {
 textarea:focus {
   border: 1px solid #8257e5;
 }
+
 .submit-button {
   align-items: center;
   background-color: #8257e5;
@@ -62,6 +63,7 @@ textarea:focus {
   right: 150px;
   width: 40px;
 }
+
 .mic-button {
   background-color: rgba(0, 0, 0, 0);
   align-items: center;
@@ -74,14 +76,17 @@ textarea:focus {
   right: 200px;
   width: 40px;
 }
+
 .lockscreen {
   margin-top: 20%;
   text-align: center;
 }
-h2{
-  color: #FFFFFF;
+
+h2 {
+  color: #ffffff;
   text-align: center;
 }
+
 form {
   background-color: #1d1e23;
   border-radius: 10px;
@@ -91,18 +96,20 @@ form {
   text-align: left;
   width: 600px;
   position: absolute;
-  color: #FFFFFF;
+  color: #ffffff;
   right: 350px;
   bottom: 200px;
 }
+
 label {
   display: block;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 input[type="text"] {
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   border-radius: 5px;
   font-size: 14px;
   padding: 8px;
@@ -113,7 +120,7 @@ button[type="submit"] {
   background-color: #8257e5;
   border: none;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
@@ -125,4 +132,75 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #8257e5;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+    padding: 20px;
+  }
+  form {
+    width: 90%;
+    right: 5%;
+    bottom: 400px;
+  }
+  .submit-button{
+    bottom: 100px;
+
+  }
+  .trash-button{
+    bottom: 100px;
+
+  }
+  .mic-button {
+    bottom: 100px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  input[type="text"] {
+    font-size: 12px;
+  }
+  button[type="submit"] {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Tablets and small desktops */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .content {
+    width: 80%;
+  }
+  form {
+    width: 400px;
+    right: 25%;
+    bottom: 350px;
+  }
+}
+
+/* Large desktops */
+@media only screen and (min-width: 1025px) {
+  .content {
+    width: 60%;
+  }
+  form {
+    width: 600px;
+    right: 650px;
+    bottom: 400px;
+  }
+  .submit-button{
+    bottom: 100px;
+    right: 400px;
+    
+  }
+  .trash-button{
+    bottom: 100px;
+    right: 450px;
+  }
+  .mic-button {
+    bottom: 100px;
+    right: 500px;
+  }
 }
