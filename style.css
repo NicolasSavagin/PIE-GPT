@@ -143,18 +143,18 @@ button[type="submit"]:hover {
   form {
     width: 90%;
     right: 5%;
-    bottom: 400px;
+    bottom: 200px;
   }
   .submit-button{
-    bottom: 100px;
+    bottom: 60px;
 
   }
   .trash-button{
-    bottom: 100px;
+    bottom: 60px;
 
   }
   .mic-button {
-    bottom: 100px;
+    bottom: 60px;
   }
   h2 {
     font-size: 24px;
@@ -187,20 +187,20 @@ button[type="submit"]:hover {
   }
   form {
     width: 600px;
-    right: 650px;
-    bottom: 400px;
+    right: 400px;
+    bottom: 250px;
   }
   .submit-button{
-    bottom: 100px;
-    right: 400px;
+    bottom: 75px;
+    right: 350px;
     
   }
   .trash-button{
-    bottom: 100px;
-    right: 450px;
+    bottom: 75px;
+    right: 400px;
   }
   .mic-button {
-    bottom: 100px;
-    right: 500px;
+    bottom: 75px;
+    right: 450px;
   }
 }
